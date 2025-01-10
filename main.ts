@@ -1,5 +1,5 @@
 input.onGesture(Gesture.Shake, function () {
-    move = !(true)
+    move = !(move)
     if (move) {
         CutebotPro.pwmCruiseControl(30, 30)
         basic.showIcon(IconNames.Sword)
